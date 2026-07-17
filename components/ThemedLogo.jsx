@@ -1,17 +1,15 @@
-import   {Image , useColorScheme} from 'react-native';
+import { Image } from "react-native";
+import React from "react";
+import Icon from "../assets/images/icon.png";
 
-import Darklogo from  '../assets/icon/icon.png';
-import Lightlogo from  '../assets/icon/icon.png';
-
-const ThemedLogo = () => {
-    const colorScheme = useColorScheme();
-
-    const logo = colorScheme === 'dark' ? Darklogo : Lightlogo;
-
-    return (
-        <Image source={logo}
-        />
-    )
-}
+const ThemedLogo = ({ style, ...props }) => {
+  return (
+    <Image
+      source={Icon}
+      {...props}
+      style={[{ width: 200, height: 200, resizeMode: "contain" }, style]}
+    />
+  );
+};
 
 export default ThemedLogo;

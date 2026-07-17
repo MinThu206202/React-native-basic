@@ -1,42 +1,44 @@
 export const Colors = {
   light: {
-    background: "#FFFFFF",
-    surface: "#F5F5F5",
+    background: "#F8FAFC",
+    surface: "#FFFFFF",
 
-    text: "#111111",
-    textSecondary: "#666666",
+    text: "#1E293B",
+    textSecondary: "#64748B",
 
-    primary: "#007AFF",
-    secondary: "#5856D6",
+    primary: "#6366F1",
+    secondary: "#8B5CF6",
 
-    border: "#E5E5E5",
+    border: "#E2E8F0",
 
-    success: "#34C759",
-    warning: "#FF9500",
-    danger: "#FF3B30",
+    success: "#22C55E",
+    warning: "#F59E0B",
+    danger: "#EF4444",
 
     card: "#FFFFFF",
-    navBackground: "#2563EB",
+    navBackground: "#FFFFFF",
+    tabBackground: "#F8FAFC",
   },
 
   dark: {
-    background: "#000000",
-    surface: "#1C1C1E",
+    background: "#0F172A",
+    surface: "#1E293B",
 
-    text: "#FFFFFF",
-    textSecondary: "#A1A1A1",
+    text: "#F1F5F9",
+    textSecondary: "#94A3B8",
 
-    primary: "#0A84FF",
-    secondary: "#5E5CE6",
+    primary: "#818CF8",
+    secondary: "#A78BFA",
 
-    border: "#38383A",
+    border: "#334155",
 
-    success: "#30D158",
-    warning: "#FF9F0A",
-    danger: "#FF453A",
+    success: "#4ADE80",
+    warning: "#FBBF24",
+    danger: "#F87171",
 
-    card: "#1C1C1E",
-    navBackground: "#1F2937",
+    card: "#1E293B",
+    navBackground: "#1E293B",
+    tabBackground: "#0F172A",
   },
 };
 
